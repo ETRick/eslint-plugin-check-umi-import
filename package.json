@@ -1,0 +1,32 @@
+{
+  "name": "eslint-plugin-check-umi-import",
+  "version": "0.0.2",
+  "description": "适用于 pro.ant.design 项目 检查 umi 导入位置是否正确",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "umi",
+    "import"
+  ],
+  "author": "zhiheng.shao",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.1.0",
+    "mocha": "^7.2.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "repository": {
+    "url": "https://github.com/ETRick/eslint-plugin-check-umi-import.git",
+    "type": "git"
+  },
+  "license": "ISC"
+}
